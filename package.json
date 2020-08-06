@@ -1,0 +1,23 @@
+{
+  "name": "chit-chat",
+  "version": "1.0.0",
+  "description": "a chat application",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon server"
+  },
+  "author": "devashish",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "firebase": "^7.8.0",
+    "firebase-admin": "^8.9.2",
+    "md5": "^2.2.1",
+    "mongoose": "^5.9.4",
+    "nodemailer": "^6.4.2",
+    "socket.io": "^2.3.0"
+  }
+}
